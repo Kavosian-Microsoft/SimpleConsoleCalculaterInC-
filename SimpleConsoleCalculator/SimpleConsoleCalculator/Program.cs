@@ -10,7 +10,7 @@ namespace SimpleConsoleCalculator
     {
         static void Main(string[] args)
         {
-            double a, b, c;
+            double a, b;
             Console.Title = "Simple Calculator";
             Console.Write("\n\tEnter A:");
             a = double.Parse(Console.ReadLine());
