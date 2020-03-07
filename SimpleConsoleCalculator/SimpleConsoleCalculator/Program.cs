@@ -11,7 +11,7 @@ namespace SimpleConsoleCalculator
         static void Main(string[] args)
         {
             double a, b;
-            Console.Title = "Simple Calculator";
+            Console.Title = "Simple Calculator Version 1.5";
             Console.Write("\n\tEnter A:");
             a = double.Parse(Console.ReadLine());
             Console.Write("\n\tEnter B:");
