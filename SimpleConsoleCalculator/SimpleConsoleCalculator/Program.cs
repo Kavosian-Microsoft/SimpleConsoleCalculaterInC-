@@ -20,7 +20,9 @@ namespace SimpleConsoleCalculator
             Console.Write("\n\tA-B={0}", a - b);
             Console.Write("\n\tAxB={0}", a * b);
             Console.Write("\n\tA/B={0}", a / b);
+            Console.Write("\n\tPress any key to exit...");
             Console.ReadKey();
+
         }//Main
     }//Program
 }//SimpleConsoleCalculator
